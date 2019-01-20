@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Text, View, TouchableOpacity, Button, NavigatorIOS } from 'react-native';
+import { Text, View, TouchableOpacity, Button, NavigatorIOS, } from 'react-native';
 import { Camera, Permissions } from 'expo';
+import CameraExample from "./camera example"
 
-export default class CameraExample extends React.Component {
+export default class CameraExample1 extends React.Component {
   state = {
     hasCameraPermission: null,
     type: Camera.Constants.Type.back,
@@ -13,6 +14,7 @@ export default class CameraExample extends React.Component {
     const { status } = await Permissions.askAsync(Permissions.CAMERA);
     this.setState({ hasCameraPermission: status === 'granted' });
   }
+      
 
   render() {
     const { hasCameraPermission } = this.state;
@@ -48,6 +50,7 @@ export default class CameraExample extends React.Component {
                   {' '}Flip{' '}
                 </Text>
               </TouchableOpacity>
+              <CameraExample/>
             </View>
           </Camera>
         </View>
