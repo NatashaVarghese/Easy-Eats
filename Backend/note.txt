@@ -1,0 +1,5 @@
+Note sure next steps but: 
+
+.py -> this is the flask server file
+
+backend frontend -> This is a quick sketch of the backend use
