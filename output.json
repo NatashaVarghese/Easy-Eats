@@ -1,0 +1,61 @@
+{
+    "images": [
+        {
+            "classifiers": [
+                {
+                    "classifier_id": "default",
+                    "name": "default",
+                    "classes": [
+                        {
+                            "class": "frozen custard",
+                            "score": 0.813,
+                            "type_hierarchy": "/food/nutrition/dessert/frozen custard"
+                        },
+                        {
+                            "class": "dessert",
+                            "score": 0.949
+                        },
+                        {
+                            "class": "nutrition",
+                            "score": 0.949
+                        },
+                        {
+                            "class": "food",
+                            "score": 0.949
+                        },
+                        {
+                            "class": "ice-cream cone",
+                            "score": 0.596,
+                            "type_hierarchy": "/food/nutrition/dessert/ice-cream cone"
+                        },
+                        {
+                            "class": "peach ice cream",
+                            "score": 0.526,
+                            "type_hierarchy": "/food/nutrition/dessert/ice cream/peach ice cream"
+                        },
+                        {
+                            "class": "ice cream",
+                            "score": 0.544
+                        },
+                        {
+                            "class": "ice",
+                            "score": 0.5,
+                            "type_hierarchy": "/food/nutrition/dessert/ice"
+                        },
+                        {
+                            "class": "food product",
+                            "score": 0.792
+                        },
+                        {
+                            "class": "pale yellow color",
+                            "score": 0.979
+                        }
+                    ]
+                }
+            ],
+            "image": "icecream.jpeg"
+        }
+    ],
+    "images_processed": 1,
+    "custom_classes": 0
+}
